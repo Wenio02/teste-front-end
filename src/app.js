@@ -1,5 +1,7 @@
 import express from "express"
-import routes from "./routes.mjs"
+import routes from "./routes.js"
+
+import "./database"
 
 
 class App {
@@ -16,7 +18,6 @@ class App {
     routes(){
         this.app.use(routes)
     }
-
 }
 
 

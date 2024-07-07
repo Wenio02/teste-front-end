@@ -22,7 +22,7 @@ class Database {
 
     mongo() {
         this.mongoConnection = mongoose.connect(
-            'mongodb://localhost:27017/codeburger',
+            'mongodb://localhost:27017/wburger',
        
         )
     }

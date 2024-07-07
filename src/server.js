@@ -1,4 +1,3 @@
-import app from "./app.js"
+import app from "./app"
 
-
-app.listen(3001, () => console.log("server esta rodando"))
+app.listen(3000)
